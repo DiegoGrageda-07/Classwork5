@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🎈 Happy Birthday, Friend! 🎉</h1>
+    <p class="intro">Wishing you joy, laughter, and unforgettable memories on your special day.</p>
+  </header>
+
+  <main id="main-content">
+    <section class="gifts" aria-labelledby="gifts-title">
+      <h2 id="gifts-title">Here are some virtual gifts just for you:</h2>
+      <img src="A_sparkling_birthday_present_with_ribbon.gif" alt="A sparkling birthday present with ribbon" />
+      <img src="Animated_balloons_floating_in_the_sky.gif" alt="Animated balloons floating in the sky" />
+      <img src="Cute_puppy_popping_out_of_a_gift_box.gif" alt="Cute puppy popping out of a gift box" />
+    </section>
+
+    <section class="videos" aria-labelledby="videos-title">
+      <h2 id="videos-title">🎥 Birthday videos</h2>
+
+      <!-- Autoplay looping video -->
+      <figure class="video-block">
+        <video autoplay muted loop playsinline width="640" height="360" aria-label="Birthday celebration video">
+          <source src="birthday-celebration.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <img src="birthday_preview.jpg" alt="Preview image for the birthday celebration video" />
+      </figure>
+
+      <!-- Control-play video -->
+      <figure class="video-block">
+        <video controls width="640" height="360" aria-label="Personal birthday message video">
+          <source src="video2.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <img src="preview_of_vid_recording.jpg" alt="Preview image for the personal birthday message video" />
+      </figure>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>Made with 💖 and HTML/CSS. Hope your day is amazing!</p>
+  </footer>
+</body>
+</html>
